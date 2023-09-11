@@ -1,0 +1,27 @@
+---
+title: "FML Assignment"
+author: "Siddhartha CBS"
+date: "2023-09-08"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+#1 Download a default dataset from the web.
+#2 Imported the dataset into R
+```{r}
+data("ChickWeight")
+```
+#3 Print out descriptive statistics 
+```{r ChickWeight}
+summary(ChickWeight)
+```
+#4 Transform at least one variable
+```{r}
+ChickWeight$sqrt_weight <- sqrt(ChickWeight$weight)
+```
+#5
+
+
+
